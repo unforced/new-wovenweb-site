@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on My New Hugo Site</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Woven Web</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>&lt;h2 id=&#34;our-story&#34;&gt;Our Story&lt;/h2&gt;&#xA;&lt;p&gt;Woven Web emerged from a simple observation: as our world became increasingly digital, many people felt more disconnected than ever. Founded in 2020 during the global pandemic, we recognized the urgent need for technology that brings people together rather than driving them apart.&lt;/p&gt;&#xA;&lt;p&gt;Our journey began with a series of virtual community gatherings that quickly evolved into a movement for conscious technology. We believe that technology should serve humanity, not the other way around.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
