@@ -8,7 +8,7 @@
     {{ $css := resources.Get "css/main.css" | resources.PostCSS }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 </head>
-<body class="min-h-screen flex flex-col">
+<body class="min-h-screen flex flex-col bg-pattern">
     <!-- Header partial -->
     {{ partial "header.html" . }}
 
