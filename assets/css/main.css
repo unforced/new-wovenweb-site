@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities; 
+@tailwind utilities;
+
+@layer base {
+  /* Typography defaults */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-bold;
+  }
+
+  body {
+    @apply font-serif text-stone-dark bg-stone-light;
+  }
+}
+
+@layer components {
+  /* Natural state animations */
+  .transition-natural {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  /* Organic spacing utility */
+  .space-natural {
+    @apply p-6; /* 24px natural spacing */
+  }
+  
+  /* Gradient backgrounds */
+  .gradient-natural {
+    @apply bg-gradient-to-br;
+  }
+}
+
+@layer utilities {
+  /* Add organic hover states */
+  .hover-natural {
+    @apply hover:scale-105 transition-natural;
+  }
+} 

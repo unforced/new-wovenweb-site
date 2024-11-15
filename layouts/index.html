@@ -1,0 +1,74 @@
+{{ define "main" }}
+<div class="space-y-16">
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-earth to-forest text-stone-light rounded-organic p-16">
+        <div class="max-w-3xl">
+            <h1 class="text-5xl font-sans font-bold mb-6">
+                Bridging Digital & Physical Worlds
+            </h1>
+            <p class="text-xl font-serif mb-8">
+                A non-profit dedicated to healing societal disconnection through harmonious integration of technology, nature, and human connection.
+            </p>
+            <a href="/participate" class="bg-sunset hover-natural inline-block px-6 py-3 rounded-organic font-sans">
+                Get Involved
+            </a>
+        </div>
+    </section>
+
+    <!-- Impact Statistics -->
+    <section class="grid grid-cols-3 gap-8">
+        <div class="bg-stone-light p-8 rounded-organic text-center">
+            <span class="text-4xl font-sans text-forest">500+</span>
+            <p class="font-serif text-mushroom">Community Members</p>
+        </div>
+        <div class="bg-stone-light p-8 rounded-organic text-center">
+            <span class="text-4xl font-sans text-forest">24</span>
+            <p class="font-serif text-mushroom">Events This Year</p>
+        </div>
+        <div class="bg-stone-light p-8 rounded-organic text-center">
+            <span class="text-4xl font-sans text-forest">100%</span>
+            <p class="font-serif text-mushroom">Local Impact</p>
+        </div>
+    </section>
+
+    <!-- Community Stories -->
+    <section class="space-y-8">
+        <h2 class="text-3xl font-sans text-forest">Community Stories</h2>
+        <div class="grid grid-cols-2 gap-8">
+            <article class="bg-stone-light p-8 rounded-organic">
+                <h3 class="font-sans text-xl mb-4">Story Title</h3>
+                <p class="font-serif text-mushroom mb-4">Story preview text goes here...</p>
+                <a href="#" class="text-forest hover-natural">Read More →</a>
+            </article>
+            <article class="bg-stone-light p-8 rounded-organic">
+                <h3 class="font-sans text-xl mb-4">Story Title</h3>
+                <p class="font-serif text-mushroom mb-4">Story preview text goes here...</p>
+                <a href="#" class="text-forest hover-natural">Read More →</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="bg-sky rounded-organic p-16 text-center">
+        <h2 class="text-3xl font-sans text-stone-dark mb-6">Stay Connected</h2>
+        <p class="font-serif text-stone-dark mb-8 max-w-2xl mx-auto">
+            Join our community newsletter to stay updated on events, initiatives, and ways to get involved.
+        </p>
+        <form class="max-w-md mx-auto">
+            <div class="flex gap-4">
+                <input 
+                    type="email" 
+                    placeholder="Enter your email" 
+                    class="flex-grow px-4 py-2 rounded-organic bg-stone-light"
+                >
+                <button 
+                    type="submit" 
+                    class="bg-sunset text-stone-light px-6 py-2 rounded-organic hover-natural"
+                >
+                    Subscribe
+                </button>
+            </div>
+        </form>
+    </section>
+</div>
+{{ end }} 
